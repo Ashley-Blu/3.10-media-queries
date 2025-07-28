@@ -13,9 +13,9 @@ The structure:
   + policy.html
 
 Tools used:
-HTML5
-CSS
-W3SCHOOLS
-GOOGLE.com
-GITHUB
+HTML5,
+CSS,
+W3SCHOOLS,
+GOOGLE.com,
+GITHUB,
 GIT
