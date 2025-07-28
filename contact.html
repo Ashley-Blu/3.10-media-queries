@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contact Us</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+        integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        main {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 97vh;
+            background-color: #ffe5e9;
+        }
+
+        .layout {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            /* margin: 500px; */
+
+        }
+
+        i {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            width: 90%;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        input[type="textbox"] {
+            width: 90%;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            height: 150px;
+        }
+
+        .form {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 60vh;
+            padding: 2rem 1rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+            max-width: 500px;
+            margin: 4rem auto;
+            background-color: #fff;
+        }
+
+        button {
+            border-radius: 8px;
+            background-color: #ec3547b7;
+            color: white;
+            border: none;
+            padding: 5px;
+            width: 100%;
+            cursor: pointer;
+            margin-top: 150px
+        }
+        .footer{
+            text-align: center;
+            padding: 20px;
+            background-color: #ec3547b7;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 98%;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="layout">
+            <div class="form">
+                <h1>Get in Touch</h1>
+                <p>Feel free to contact us and drop a comment/message below!</p>
+                <form action="">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="textbox" placeholder="Type your message here..." required>
+                    <button type="submit">Send message</button>
+
+            </div>
+        </div>
+        <section class="footer">
+            <p>&copy; 2025 MyPortfolio.</p>
+            <nav>
+                <a href="policy.html">Privacy Policy</a> | <a href="index.html">Home</a>
+            </nav>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
