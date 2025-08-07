@@ -15,44 +15,59 @@
         <nav class=" lists">
 
             <ol class="list">
-                <li><a href="#">Home</a></li>
-                <li> <a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#" style="background-color: white; color:rgba(236, 53, 71, 0.85)">Home</a></li>
+                <li> <a href="#hero-text">About</a></li>
+                <li class="dropdown" aria-haspopup="true" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+    Projects <i class="ri-arrow-down-s-line"></i>
+  </a>
+  <ul class="dropdown-menu" role="menu" aria-label="Projects submenu" style="">
+    <li><a href="https://github.com/Ashley-Blu/task-4.4-starter" target="_blank" rel="noopener">Convertor Calculator</a></li>
+    <li><a href="https://github.com/Ashley-Blu/task-4.4-starter" target="_blank" rel="noopener">Task Management</a></li>
+    <li><a href="" target="_blank" rel="noopener">Task Manager</a></li>
+    <li><a href="project4.html">Portfolio Website</a></li> 
+  </ul>
+</li>
+
+                <li><a href="contact.html">Contact</a></li>
             </ol>
 
         </nav>
 
     </header>
 
-    <section class="hero">
+    <main>
+        <section class="hero">
 
-        <div class="image1">
-            <img src="assets/hero.png" alt="Sample hero image">
-        </div>
+            <div class="image1">
+                <img src="assets/hero.png" alt="Sample hero image">
+            </div>
 
-        <div class="hero-text">
-            <h2>Welcome to MySite</h2>
-            <p>
-                This layout is responsive using media queries.
-                Resize the browser to see it adapt to tables and mobile screens.
-            </p>
-        </div>
+            <div class="hero-text">
+                <h2>Welcome to MySite</h2>
+                <p>
+                    This layout is responsive using media queries.
+                    Resize the browser to see it adapt to tables and mobile screens.
+                </p>
+            </div>
 
-    </section>
+        </section>
 
-    <section class="columns">
+        <section class="columns">
 
-        <div class="column">About Me</div>
-        <div class="column">Skills</div>
-        <div class="column">projects</div>
+            <div class="column">About Me</div>
+            <div class="column">Skills</div>
+            <div class="column">>Projects</div>
 
-    </section>
+        </section>
+    </main>
+
+
 
     <footer>
         <p>&copy; 2025 MyPortfolio.</p>
         <nav>
-          <li><a href="policy.html">Privacy Policy</a>|<a href="contact.html">Contact Us</a></li> 
+            <li><a href="policy.html">Privacy Policy</a>|<a href="contact.html">Contact Us</a></li>
         </nav>
     </footer>
 

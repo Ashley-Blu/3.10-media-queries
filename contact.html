@@ -41,20 +41,21 @@
 
         input[type="text"],
         input[type="email"] {
-            width: 90%;
+            width: 95%;
             padding: 10px;
             border-radius: 8px;
             border: 1px solid #ccc;
             font-size: 16px;
         }
 
-        input[type="textbox"] {
-            width: 90%;
-            padding: 10px;
+        textarea {
+            width:99%;
+            max-height: 130px;
+            max-width: 409px;
             border-radius: 8px;
             border: 1px solid #ccc;
+            padding: 10px;
             font-size: 16px;
-            height: 150px;
         }
 
         .form {
@@ -77,12 +78,14 @@
             background-color: #ec3547b7;
             color: white;
             border: none;
-            padding: 5px;
-            width: 100%;
+            padding: 10px;
+            width: 99%;
             cursor: pointer;
-            margin-top: 150px
+            margin-top: 150px;
+            font-size: 16px;
         }
-        .footer{
+
+        .footer {
             text-align: center;
             padding: 20px;
             background-color: #ec3547b7;
@@ -103,20 +106,20 @@
                 <form action="">
                     <input type="text" placeholder="Your Name" required>
                     <input type="email" placeholder="Your Email" required>
-                    <input type="textbox" placeholder="Type your message here..." required>
-                    <button type="submit">Send message</button>
+                    <textarea placeholder="Type your message here..." required></textarea>
+                    <button type="submit">Send Message</button>
 
             </div>
         </div>
-        <section class="footer">
-            <p>&copy; 2025 MyPortfolio.</p>
-            <nav>
-                <a href="policy.html">Privacy Policy</a> | <a href="index.html">Home</a>
-            </nav>
-        </section>
+
 
     </main>
-
+    <section class="footer">
+        <p>&copy; 2025 MyPortfolio.</p>
+        <nav>
+            <a href="policy.html">Privacy Policy</a> | <a href="index.html">Home</a>
+        </nav>
+    </section>
 </body>
 
 </html>
